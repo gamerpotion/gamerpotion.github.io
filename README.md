@@ -4,9 +4,9 @@
 
 Explore GamerPotion's project directory, browse by category or A–Z, and find links to each project's CurseForge page.
 
-## [Visit the GamerPotion Website →](https://gamerpotion.github.io/)
+## [Visit the GamerPotion Website →](https://projects.gamerpotion.net/)
 
-**Website:** https://gamerpotion.github.io/
+**Website:** https://projects.gamerpotion.net/
 
 ### What you'll find
 
