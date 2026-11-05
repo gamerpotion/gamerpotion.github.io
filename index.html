@@ -26,6 +26,10 @@
     .topbar .shell { display:flex; justify-content:space-between; align-items:center; gap:22px; flex-wrap:wrap; padding-block:17px; }
     .brand { font-weight:850; letter-spacing:-.045em; font-size:1.48rem; text-decoration:none; color:#191919; }
     .brand-mark { display:inline-grid; place-items:center; width:32px; height:32px; border-radius:0; margin-right:9px; color:#ffffff; background:#191919; font-size:.9rem; letter-spacing:0; }
+    /* Keep the GamerPotion brand text black on hover; other links retain their hover colours. */
+    .brand:hover,.brand:focus { color:#191919; }
+    .brand-mark.brand-mark-image { background:#191919 url("data:image/webp;base64,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") center / cover no-repeat; color:transparent; }
+
     .primary-nav { display:flex; flex-wrap:wrap; gap:8px 18px; }
     .primary-nav a { text-decoration:none; color:#242424; font-size:14px; font-weight:500; }
     .primary-nav a:hover { color:#1a8917; }
@@ -43,7 +47,7 @@
     .button.primary:hover { background:#3a3a3a; color:#ffffff; border-color:#3a3a3a; }
     .meta-row { display:flex; gap:20px; flex-wrap:wrap; margin-top:29px; font-size:.91rem; color:#686868; }
     .meta-row strong { color:#242424; }
-    .featured { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-bottom:40px; }
+    .featured { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:24px; margin-bottom:40px; }
     .featured article { padding:21px; border:1px solid var(--line); border-radius:0; background:#ffffff; }
     .featured h2 { font-size:1.15rem; letter-spacing:0; margin:4px 0 9px; }
     .featured p { color:var(--muted); margin:0 0 12px; font-size:.91rem; }
@@ -98,6 +102,7 @@
     .site-footer .shell { display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
     @media (max-width:900px) { .featured,.project-grid,.support-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .alphabet-columns { grid-template-columns:repeat(3,minmax(0,1fr)); } }
     @media (max-width:610px) { .shell { width:min(100% - 24px,1170px); } .hero { padding:44px 0 30px; } .featured,.project-grid,.support-grid { grid-template-columns:1fr; } .alphabet-columns { grid-template-columns:repeat(2,minmax(0,1fr)); } .browse,.alpha-directory { padding:16px; } .category-head { align-items:start; flex-direction:column; } }
+    @media (max-width:610px) { .featured { margin-top:16px; } }
     @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
   
     .featured article,.browse,.alpha-directory,.project-card,.project-tag,.category-nav a,.alpha-nav a,.alpha-nav span,.search-row input,.search-row button,.button,.brand-mark,.support img { border-radius:0; }
@@ -106,7 +111,7 @@
 <body id="top">
 <a class="skip-link" href="#main">Skip to main content</a>
 <header class="topbar"><div class="shell">
-  <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">GP</span>GamerPotion</a>
+  <a class="brand" href="#top"><span class="brand-mark brand-mark-image" aria-hidden="true">GP</span>GamerPotion</a>
   <nav class="primary-nav" aria-label="Main navigation">
     <a href="#browse" aria-current="page">Projects</a>
     <a href="https://www.gamerpotion.net/">Blog</a>
